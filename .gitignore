@@ -1,0 +1,10 @@
+﻿auto-save-list
+backups
+elpa
+*.el~
+server
+transient
+company-statistics-cache.el
+projectile-bookmarks.eld
+recentf
+savehist
