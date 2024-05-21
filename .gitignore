@@ -1,6 +1,8 @@
 ﻿auto-save-list
 backups
 elpa
+eln-cache
+tramp
 *.el~
 server
 transient
