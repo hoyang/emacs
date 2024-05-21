@@ -1,4 +1,6 @@
-﻿auto-save-list
+﻿.emacs.desktop.lock
+.emacs.desktop
+auto-save-list
 backups
 elpa
 eln-cache
