@@ -19,8 +19,8 @@
 (global-set-key "\C-a" 'smart-beginning-of-line)
 
 ;; tabbar switch
-(global-set-key [(meta left)] 'tabbar-backward);;切换前一个tab
-(global-set-key [(meta right)] 'tabbar-forward);;切换下一个tab
+(global-set-key [(meta left)] 'tabbar-backward)                ; 切换前一个tab
+(global-set-key [(meta right)] 'tabbar-forward)                ; 切换下一个tab
 
 ;; company
 (define-key company-active-map [tab] 'company-select-next-if-tooltip-visible-or-complete-selection)
@@ -33,7 +33,7 @@
   (define-key company-mode-map (kbd "C-:") 'helm-company)
   (define-key company-active-map (kbd "C-:") 'helm-company))
 
-(global-set-key "%" 'match-paren); 按 % 跳转到匹配的括号
+(global-set-key "%" 'match-paren)                              ; 按 % 跳转到匹配的括号
 
 ;; delete current buffer and file.
 (global-set-key (kbd "C-c k") 'delete-this-buffer-and-file)
@@ -62,20 +62,21 @@
 (custom-set-variables
  '(helm-gtags-prefix-key "\C-t")
  '(helm-gtags-suggested-key-mapping t))
-;;Key 	Command
-;;Prefix h 	helm-gtags-display-browser
-;;Prefix C-] 	helm-gtags-find-tag-from-here
-;;Prefix C-t 	helm-gtags-pop-stack
-;;Prefix P 	helm-gtags-find-files
-;;Prefix f 	helm-gtags-parse-file
-;;Prefix g 	helm-gtags-find-pattern
-;;Prefix s 	helm-gtags-find-symbol
-;;Prefix r 	helm-gtags-find-rtag
-;;Prefix t 	helm-gtags-find-tag
-;;Prefix d 	helm-gtags-find-tag
-;;M-* 	helm-gtags-pop-stack
-;;M-. 	helm-gtags-find-tag
-;;C-x 4 . 	helm-gtags-find-tag-other-window
+
+;; Key          Command
+;; Prefix h 	helm-gtags-display-browser
+;; Prefix C-] 	helm-gtags-find-tag-from-here
+;; Prefix C-t 	helm-gtags-pop-stack
+;; Prefix P 	helm-gtags-find-files
+;; Prefix f 	helm-gtags-parse-file
+;; Prefix g 	helm-gtags-find-pattern
+;; Prefix s 	helm-gtags-find-symbol
+;; Prefix r 	helm-gtags-find-rtag
+;; Prefix t 	helm-gtags-find-tag
+;; Prefix d 	helm-gtags-find-tag
+;; M-* 	        helm-gtags-pop-stack
+;; M-. 	        helm-gtags-find-tag
+;; C-x 4 . 	    helm-gtags-find-tag-other-window
 
 ;; macOS
 ;; command -> meta, alt -> alt

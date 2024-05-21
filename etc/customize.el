@@ -1,4 +1,4 @@
-;; 关闭匹配下列目录或文件的备份功能
+;; disable backup for /tmp or semanticdb
 (defun ecm-backup-enable-predicate (filename)
   (and (not (string= "/tmp/" (substring filename 0 5)))
        (not (string-match "semanticdb" filename))))
@@ -27,7 +27,7 @@ that was stored with ska-point-to-register."
     (jump-to-register 8)
     (set-register 8 tmp)))
 
-; press C-c a x jump cursor to next x char
+;; press C-c a x jump cursor to next x char
 (defun em-go-to-char (n char)
   "Move forward to Nth occurence of CHAR.
 Typing `wy-go-to-char-key' again will move forwad to the next Nth
@@ -166,6 +166,8 @@ occurence of CHAR."
     (shell-command-on-region b e
                              "python -c 'import sys,json; data=json.loads(sys.stdin.read()); print json.dumps(data,sort_keys=True,indent=4).decode(\"unicode_escape\").encode(\"utf8\",\"replace\")'" (current-buffer) t)))
 
+
+;; chinese <-> english dictionary
 (defun my-simple-dictionary ()
   (interactive)
   (defvar sqlite-program

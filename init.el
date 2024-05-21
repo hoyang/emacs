@@ -22,7 +22,5 @@
 		"development.el"
 		"key-binding.el"
 		"extra.el"
-		"hotfix.el"
-		"workspace.el"
-		"test.el"))
+		"workspace.el"))
 

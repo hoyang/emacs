@@ -10,6 +10,7 @@
 (unless (boundp 'directory-sep-char) (setq directory-sep-char ?/))
 (setq directory-sep-string (char-to-string directory-sep-char))
 
+
 (defun add-load-path-list (dir)
   (interactive "f")
   "add-to-list load-path all top level folder in dir"
@@ -26,17 +27,15 @@
         (add-to-list 'load-path name)))))
 
 
-;; Theme
-(add-to-list 'load-path "~/.emacs.d/ext/themes/monokai-emacs")
-
-
 ;; Environment variable
 (setenv "LD_LIBRARY_PATH" (concat "/usr/local/lib" ";" (getenv "LD_LIBRARY_PATH")))
 ;; My own lib path
 (setenv "LD_LIBRARY_PATH" (concat "~/lib" ";" (getenv "LD_LIBRARY_PATH")))
 
+
 (setq exec-path (append '("~/bin") exec-path))
 (setq exec-path (append '("/usr/local/bin") exec-path))
+
 
 (when (eq window-system 'w32)
   (setq erlang-root-dir "C:/Tools/SDK/erl-24.2")
