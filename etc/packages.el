@@ -1,10 +1,10 @@
 (require 'package)
 
 ;; elpa mirror
-(setq package-archives '(("gnu" . "http://mirrors.ustc.edu.cn/elpa/gnu/")
-                         ("melpa" . "http://mirrors.ustc.edu.cn/elpa/melpa/")
-                         ("melpa-stable" . "http://mirrors.ustc.edu.cn/elpa/melpa-stable/")
-                         ("org" . "http://mirrors.ustc.edu.cn/elpa/org/")
+(setq package-archives '(("gnu" . "https://mirrors.ustc.edu.cn/elpa/gnu/")
+                         ("melpa" . "https://mirrors.ustc.edu.cn/elpa/melpa/")
+                         ("melpa-stable" . "https://mirrors.ustc.edu.cn/elpa/melpa-stable/")
+                         ("org" . "https://mirrors.ustc.edu.cn/elpa/org/")
                          ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")))
 
 ;; activate all the packages
