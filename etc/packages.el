@@ -11,7 +11,48 @@
 (package-initialize)
 
 (setq package-list
-      '(yasnippet-snippets yaml-mode web-mode vue-mode typescript-mode treepy tide swift-mode solidity-flycheck shut-up rust-mode restclient php-mode monokai-theme meson-mode magit-popup magit lua-mode lsp-ui kotlin-mode helm-projectile helm-lsp helm-gtags helm-company go-mode gdscript-mode find-file-in-project erlang epc elpy dockerfile-mode dap-mode cquery company-statistics company-solidity company-quickhelp company-box cmake-mode cmake-ide clang-format bash-completion ansible))
+      '(ansible
+		bash-completion
+		clang-format
+		cmake-ide
+		cmake-mode
+		company-box
+		company-quickhelp
+		company-solidity
+		company-statistics
+		cquery
+		dap-mode
+		dockerfile-mode
+		elpy
+		epc
+		erlang
+		find-file-in-project
+		gdscript-mode
+		go-mode
+		helm-company
+		helm-gtags
+		helm-lsp
+		helm-projectile
+		kotlin-mode
+		lsp-ui
+		lua-mode
+		magit
+		magit-popup
+		meson-mode
+		monokai-theme
+		php-mode
+		restclient
+		rust-mode
+		shut-up
+		solidity-flycheck
+		swift-mode
+		tide
+		treepy
+		typescript-mode
+		vue-mode
+		web-mode
+		yaml-mode
+		yasnippet-snippets))
 
 ;; fetch the list of packages available 
 (unless package-archive-contents
