@@ -21,6 +21,7 @@
 		company-solidity
 		company-statistics
 		cquery
+		csharp-mode
 		dap-mode
 		dockerfile-mode
 		elpy
@@ -47,6 +48,7 @@
 		solidity-flycheck
 		swift-mode
 		tide
+		toml
 		treepy
 		typescript-mode
 		vue-mode
