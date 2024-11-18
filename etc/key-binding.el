@@ -94,3 +94,5 @@
 (global-set-key (kbd "C-c C-f") 'beautify-json)
 ;; my-simple-dictionary
 (global-set-key (kbd "C-x t") 'my-simple-dictionary)
+
+(global-unset-key (kbd "C-\\"))

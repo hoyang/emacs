@@ -42,6 +42,7 @@
 		meson-mode
 		monokai-theme
 		php-mode
+		popup
 		restclient
 		rust-mode
 		shut-up
