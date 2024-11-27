@@ -41,6 +41,7 @@
 		magit-popup
 		meson-mode
 		monokai-theme
+		nginx-mode
 		php-mode
 		popup
 		restclient
