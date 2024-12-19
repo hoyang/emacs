@@ -30,6 +30,7 @@
 		find-file-in-project
 		gdscript-mode
 		go-mode
+        helm
 		helm-company
 		helm-gtags
 		helm-lsp
