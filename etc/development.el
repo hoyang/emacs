@@ -155,7 +155,7 @@
 (add-to-list 'file-coding-system-alist '("\\.vapi$" . utf-8))
 
 (require 'helm)
-(require 'helm-autoloads)
+;;(require 'helm-autoloads) ;; not need for elpa package
 (setq helm-ff-newfile-prompt-p nil)
 
 (require 'helm-gtags)
